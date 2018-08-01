@@ -1,18 +1,23 @@
 ## Requirements
-You need to have installed [jupyter](https://github.com/jupyter/jupyter) and 
-### How to install it in MacOS X
+You need to have installed node, [jupyter](https://github.com/jupyter/jupyter) and [ijavascript](https://github.com/n-riesco/ijavascript)
+
+### How to install Jupyter in MacOS X
 #### Install Brew
-```
+```bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 #### Install Python
-```
+```bash
 brew install python3
 ```
 #### Install jupyter
-```
+```bash
 pip3 install --upgrade pip
 pip3 install jupyter
+```
+#### Install ijavascript
+```bash
+npm install -g ijavascript
 ```
 
 ## How to run it?
